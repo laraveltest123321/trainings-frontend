@@ -1,23 +1,23 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1>This page is protected by auth</h1>
   </div>
 </template>
 
 <script>
   import Vue from 'vue';
   export default {
-    name: 'about',
+    name: 'secure',
     data() {
-      return { 
-
+      return {
+      
       }
     },
     mounted() {
-      //
+
     },
     methods: {
-      //
+      
     }
   }
 </script>
